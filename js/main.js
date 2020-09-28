@@ -1,0 +1,1 @@
+$('.vdbanner').css('display','none');

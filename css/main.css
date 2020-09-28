@@ -1,0 +1,64 @@
+/*login.html*/
+.login_wrapper{
+    height:100%;
+    background-image:url("../img/bg_black.jpg");
+    background-size:cover;
+}
+.form_window{
+    height:23%;
+    background-color:rgb(228, 226, 226);
+    border-radius:10px;
+    padding-top:10px;
+}
+@media screen and ( max-width:400px) {
+    .form_window{
+        height:28%;
+    }
+}
+.login_form h2{
+    text-align:center;
+    font-weight:bold;
+}
+.login_form input{
+    display:block;
+    margin:10px auto;
+    border-radius:5px;
+}
+.btn{
+    background-color:rgb(226, 81, 81);
+    color:white;
+    padding:5px;
+    box-shadow:0 3px 4px gray;
+}
+.btn:active{
+    box-shadow:0 0 0;
+}
+
+/*check_account.php*/
+.check_account_wrapper{
+    height:100%;
+    background-image:url("../img/bg_green.jpg");
+    background-size:cover;
+}
+.message{
+    height:25%;
+    background-color:rgba(61, 59, 59,0.6);
+    border-radius:10px;
+    padding-top:10px;
+}
+.message h3{
+    text-align:center;
+    color:white;
+    padding-top:30px;
+}
+.message .btn{
+    display:block;
+    margin:40px auto;
+}
+
+/*top.html*/
+.top_wrapper{
+    height:100%;
+    background-image:url("../img/bg_blue.jpg");
+    background-size:cover;
+}
